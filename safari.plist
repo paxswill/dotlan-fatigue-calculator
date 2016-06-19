@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Builder Version</key>
+	<string>11601.5.17.1</string>
+	<key>CFBundleDisplayName</key>
+	<string>Dotlan Fatigue</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.skyride.dotlanfatigue.safari</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>functions.js</string>
+				<string>ships.js</string>
+				<string>fatigue.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>style.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://evemaps.dotlan.net/jump/*/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>This extension adds Phoebe Fatigue calculations to Dotlan's Jump Planner</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>evemaps.dotlan.net</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<false/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
